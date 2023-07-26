@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/../javadaima/chapter02/homework02.java" charset="UTF-8" />
-    <file url="PROJECT" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/Random/RandomNumber.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/ATM.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/CommonDivisor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/CountDay.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/CountGeShu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/LingXing.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/MonthDay.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/OuShu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/WanShu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/ZiMu26.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/daffodils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter03/src/chapterUp/foobizbaz.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter05/src/String/StringBuilder/StringBuilder2.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/GBKjava/src/GBK/ArithmeticOperatorExercise.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GBKjava/src/GBK/BeerSong.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/Calculator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/Compute.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/GuessNum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/Input.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/JieFangCheng.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/TestInput.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/WhileXH.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TiaoJianKZ/src/tiaojianYSF/zodiac.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/Array/Shuzu.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/School/day0518/TestStu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZu/ArrayFindMax.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZu/ArrayMultiple.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZu/Debug.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZu/PingWeiDaFeng.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZu/TwoArray.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZuPractice/ArrayPractice.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZuPractice/ArrayPractice2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZuPractice/BasicCount2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZuPractice/BasicCount2Find.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZuPractice/BasicCount3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZuPractice/BasicCount4.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/chapter04/src/ShuZuPractice/BasicCountFind.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/homework01/ChengFaBiao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework01/Circle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework01/Dog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/homework01/JieCheng.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/homework01/Lei.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/homework01/ReferenceDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/homework01/ReferenceDemo1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/homework01/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/homework01/TextStudent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework02/Children.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework02/ChildrenTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework02/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework02/Parent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework02/Person.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/java01/idea/Main.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

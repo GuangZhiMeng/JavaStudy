@@ -1,0 +1,22 @@
+package homework01;
+
+public class JieCheng {
+    public static void main(String[] args) {
+        // ??n??????,n!=1*2*3*??*(n-1)*n???n????,
+        // ????0!=1?????§Õ???????2????4????10!??????????
+
+        System.out.println("0!="+num(0));//????
+        System.out.println("2!="+num(2));
+        System.out.println("4!="+num(4));
+        System.out.println("10!="+num(10));
+    }
+
+    static int num(int n){
+        return (n==0)?1:n*num(n-1);
+//        if(n==0){
+//            return 1;
+//        }else{
+//            return n*num(n-1);
+//        }
+    }
+}

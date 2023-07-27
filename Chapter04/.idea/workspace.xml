@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e49ae45-26c2-456d-baed-e0ed65b65125" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter03/Chapter03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter05/Chapter05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GBKjava/GBKjava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GBKjava/src/GBK/qiangzhileixingzhuanhuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TiaoJianKZ/TiaoJianKZ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/java01/idea/ArgDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/java01/idea/BianLangChangLiang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/project01/java01/idea/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/project01/java01/idea/Dog.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Qovfr4GUkL9S5IFkwh8NRKU1WX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/java daima/project/Chapter05",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1e49ae45-26c2-456d-baed-e0ed65b65125" name="更改" comment="" />
+      <created>1686032855009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686032855009</updated>
+      <workItem from="1686032857574" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

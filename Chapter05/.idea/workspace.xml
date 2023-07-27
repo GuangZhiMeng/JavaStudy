@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fd9e92b-a7ef-43ca-bb1b-9baf17471b3c" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chapter03/Chapter03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/DemoArrayList01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/DemoArrayList02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/DemoArrayList03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/DemoArrayListAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/DemoArrayListPick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/DemoArrayListRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/DemoArrayListTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/TestObjectArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeiMaOOP/DemoScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeiMaOOP/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeiMaOOP/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeiMaOOP/TestPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeiMaOOP/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Demo1String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/RunTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringBianLi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringBuilder/StringBuilder1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringBuilder/StringBuilder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringBuilder/StringBuilder3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringBuilder/StringBuilderReverese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringCompete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringIntercept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/StringReplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManage/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManage/StudentManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Study/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Study/CircleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Study/ReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Study/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/ConstructorMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/ConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Mthis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/PhoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/ThisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/domain/HelloAnonymousClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/domain/OuerClass01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/domain/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/encapsulation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/encapsulation/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/test/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TiaoJianKZ/TiaoJianKZ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter04/chapter04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/java01/idea/ArgDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/java01/idea/BianLangChangLiang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/project01/java01/idea/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/project01/java01/idea/Dog.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qovi4hmpvD7JSIEqhVIN5TJJx9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/java daima/project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8fd9e92b-a7ef-43ca-bb1b-9baf17471b3c" name="更改" comment="" />
+      <created>1686032872356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686032872356</updated>
+      <workItem from="1686032873645" duration="2638000" />
+      <workItem from="1686056270501" duration="189000" />
+      <workItem from="1686056487141" duration="574000" />
+      <workItem from="1686101485689" duration="132000" />
+      <workItem from="1689314353210" duration="78000" />
+      <workItem from="1690377597162" duration="153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

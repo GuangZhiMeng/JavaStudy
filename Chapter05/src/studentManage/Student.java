@@ -1,4 +1,4 @@
-package StudentManage;
+package studentManage;
 
 public class Student {
     // 成员变量

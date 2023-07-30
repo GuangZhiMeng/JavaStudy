@@ -1,4 +1,4 @@
-package HeiMaOOP;
+package heimaoop;
 
 public class Phone {
     // 成员变量

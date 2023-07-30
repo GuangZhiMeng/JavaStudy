@@ -1,4 +1,4 @@
-package Study;
+package study;
 
 public class Sum {
     static int add(int x,int y){

@@ -1,4 +1,4 @@
-package Study;
+package study;
 
 class Timer{
     int minute,second;

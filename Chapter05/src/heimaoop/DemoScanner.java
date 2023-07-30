@@ -1,4 +1,4 @@
-package HeiMaOOP;
+package heimaoop;
 
 import java.util.Scanner;
 

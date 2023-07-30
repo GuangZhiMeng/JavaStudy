@@ -1,4 +1,4 @@
-package HeiMaOOP;
+package heimaoop;
 
 // JavaBean类：封装数据
 public class Student {

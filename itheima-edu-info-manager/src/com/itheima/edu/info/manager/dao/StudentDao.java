@@ -4,7 +4,7 @@ import com.itheima.edu.info.manager.domain.Student;
 
 public class StudentDao {
     // 1.创建学生对象数组
-   private Student[] stus = new Student[5];
+   private static Student[] stus = new Student[5];
 
     public boolean addStudent(Student stu) {
         // 2.添加学生到数组

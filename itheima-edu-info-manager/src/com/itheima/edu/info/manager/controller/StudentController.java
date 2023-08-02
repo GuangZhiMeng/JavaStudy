@@ -6,6 +6,7 @@ import com.itheima.edu.info.manager.service.StudentService;
 import java.util.Scanner;
 
 public class StudentController {
+    private StudentService studentService = new StudentService();
     // 开启学生管理系统，并展示菜单
     public void star() {
         Scanner sc = new Scanner(System.in);
@@ -25,7 +26,8 @@ public class StudentController {
                     System.out.println("修改");
                     break;
                 case "4":
-                    System.out.println("查询");
+                    //System.out.println("查询");
+                    findAllStudent();
                     break;
                 case "5":
                     System.out.println("感谢您使用学生管理系统，再见！");
@@ -37,9 +39,40 @@ public class StudentController {
         }
     }
 
+    public void findAllStudent() {
+        //这个类是在客服类中编写的，客服需要和业务员（StudentService）去要这个对象数组
+        //所以在该方法里面就需要创建一个studentService业务员对象
+        //现在同一个类当中在多个方法中创建了相同的对象，有点浪费内存
+        //把对象的创建提取到成员变量的位置
+        //StudentService studentService = new StudentService();
+
+        //1. 通过业务员对象来调用里面的方法，得到学生的对象数组
+        Student[] stus = studentService.findAllStudent();
+
+        //2. 判断数组的内存地址，是否为null
+        if(stus == null){
+            System.out.println("查无信息，请添加后重试");
+            return;
+        }
+
+        //3. 遍历数组，获取学生信息并打印在控制台
+        System.out.println("学号\t姓名\t\t年龄\t\t生日");
+        for (int i = 0; i < stus.length; i++) {
+            Student stu = stus[i];
+            // 判断一下取出来的学生信息是不是null
+            // 因为我们拿到的这个对象的数组不一定是装满的，有的位置是空的也就是null
+            // 所以要先判断当前位置的元素是不是null
+            if(stu != null){
+                System.out.println(stu.getId() + "\t" + stu.getName() + "\t" + stu.getAge() + "\t\t" + stu.getBirthday());
+            }
+        }
+
+    }
+
     // 添加学生
     public void addStudent() {
-        StudentService studentService = new StudentService();
+        //把对象的创建提取到成员变量的位置
+        //StudentService studentService = new StudentService();
         // 1.键盘接受学生信息
         Scanner sc = new Scanner(System.in);
         String id;

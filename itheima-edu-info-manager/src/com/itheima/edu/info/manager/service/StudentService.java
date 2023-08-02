@@ -29,4 +29,28 @@ public class StudentService {
         }
         return exists;
     }
+
+    // 查询在仓库（数组）中是否存在学生信息
+    public Student[] findAllStudent() {
+        //1. 调用库管对象的findAllStudent方法，获取学生对象数组
+        Student[] allStudent = studentDao.findAllStudent();
+
+        //2. 判断数组中是否有学生信息（有：返回地址，没有：返回null）
+        boolean flag = false;
+        for (int i = 0; i < allStudent.length; i++) {
+            Student stu = allStudent[i];
+            if(stu != null){// 数组中只要有一个元素不是null，那就代表这个数组有学生信息
+                flag = true;
+                break;
+            }
+        }
+
+        if(flag){
+            // true 数组中有信息
+            return allStudent;
+        }else{
+            // 没有信息
+            return null;
+        }
+    }
 }

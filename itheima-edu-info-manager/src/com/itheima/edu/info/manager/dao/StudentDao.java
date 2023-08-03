@@ -6,6 +6,7 @@ public class StudentDao {
     // 1.创建学生对象数组
    private static Student[] stus = new Student[5];
 
+   // 添加学生方法
     public boolean addStudent(Student stu) {
         // 2.添加学生到数组
         // 定义变量 index 为-1,假设数组已经全部存满,没有 null 的元素
@@ -32,7 +33,32 @@ public class StudentDao {
         }
     }
 
+    // 查看学生方法
     public Student[] findAllStudent() {
         return stus;
+    }
+
+    // 删除学生方法
+    public void deleteStudentById(String delId) {
+        // 1.查找id在容器中所在的索引位置
+        int index = getIndex(delId);
+        // 2.将该索引位置，使用null元素进行覆盖
+        stus[index] = null;
+    }
+
+    // 根据id找索引位置
+    public int getIndex(String id){
+        // 先假设这个id在容器中是不存在的
+        int index = -1;
+        // 遍历数组容器
+        for (int i = 0; i < stus.length; i++) {
+            Student stu = stus[i];
+            if(stu != null && stu.getId().equals(id)){
+                //找到了
+                index = i;
+                break;
+            }
+        }
+        return index;
     }
 }

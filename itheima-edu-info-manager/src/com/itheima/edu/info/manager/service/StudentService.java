@@ -53,4 +53,9 @@ public class StudentService {
             return null;
         }
     }
+
+    // 通知库管，根据id来完成删除
+    public void deleteStudentById(String delId) {
+        studentDao.deleteStudentById(delId);
+    }
 }

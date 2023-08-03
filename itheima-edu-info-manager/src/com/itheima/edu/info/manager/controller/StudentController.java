@@ -7,9 +7,10 @@ import java.util.Scanner;
 
 public class StudentController {
     private StudentService studentService = new StudentService();
+    private Scanner sc = new Scanner(System.in);
     // 开启学生管理系统，并展示菜单
     public void star() {
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         to:while(true){
             System.out.println("--------欢迎来到 <学生> 管理系统--------");
             System.out.println("请输入您的选择: 1.添加学生  2.删除学生  3.修改学生  4.查看学生  5.退出");
@@ -20,7 +21,8 @@ public class StudentController {
                     addStudent();
                     break;
                 case "2":
-                    System.out.println("删除");
+                    //System.out.println("删除");
+                    deleteStudentById();
                     break;
                 case "3":
                     System.out.println("修改");
@@ -39,6 +41,29 @@ public class StudentController {
         }
     }
 
+    // 删除学生对象信息
+    public void deleteStudentById() {
+        String delId;
+        while(true){
+            // 1.键盘录入要删除的学生id
+            System.out.println("请输入您要删除的学生id：");
+            delId = sc.next();
+
+            // 2.判断id在容器中是否存在，如果不存在，则需要一直录入
+            boolean exists = studentService.isExists(delId);
+            if(!exists){
+                System.out.println("您输入的id不存在，请重新输入：");
+            }else{//id存在，跳出循环
+                break;
+            }
+        }
+        // 3. 调用业务员中的deleteStudentById根据id，删除学生
+        studentService.deleteStudentById(delId);
+        // 4. 提示删除成功
+        System.out.println("删除成功!");
+    }
+
+    // 显示学生对象信息
     public void findAllStudent() {
         //这个类是在客服类中编写的，客服需要和业务员（StudentService）去要这个对象数组
         //所以在该方法里面就需要创建一个studentService业务员对象
@@ -74,7 +99,7 @@ public class StudentController {
         //把对象的创建提取到成员变量的位置
         //StudentService studentService = new StudentService();
         // 1.键盘接受学生信息
-        Scanner sc = new Scanner(System.in);
+        //Scanner sc = new Scanner(System.in);
         String id;
         // 接收学员 id 和判断的代码，使用无限循环包裹直到输入了不存在的 id，结束循环
         while(true){

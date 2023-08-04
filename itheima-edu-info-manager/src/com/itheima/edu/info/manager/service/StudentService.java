@@ -58,4 +58,9 @@ public class StudentService {
     public void deleteStudentById(String delId) {
         studentDao.deleteStudentById(delId);
     }
+
+    // 通知库管，让库管来完成修改
+    public void updateStudent(String updateId, Student newStu) {
+        studentDao.updateStudent(updateId,newStu);
+    }
 }

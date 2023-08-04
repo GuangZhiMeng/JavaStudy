@@ -25,7 +25,8 @@ public class StudentController {
                     deleteStudentById();
                     break;
                 case "3":
-                    System.out.println("修改");
+                    //System.out.println("修改");
+                    updateStudent();
                     break;
                 case "4":
                     //System.out.println("查询");
@@ -41,22 +42,111 @@ public class StudentController {
         }
     }
 
-    // 删除学生对象信息
-    public void deleteStudentById() {
-        String delId;
+    // 键盘录入学生id
+    public String inputStudentId(){
+        //1.接收用户要输入的id
+        String id;
         while(true){
-            // 1.键盘录入要删除的学生id
-            System.out.println("请输入您要删除的学生id：");
-            delId = sc.next();
+            // 1.键盘录入的学生id
+            System.out.println("请输入学生id：");
+            id = sc.next();
 
             // 2.判断id在容器中是否存在，如果不存在，则需要一直录入
-            boolean exists = studentService.isExists(delId);
+            // 调用StudentService业务员对象中的isExists方法,判断学号是否存在，不存在则继续录入
+            boolean exists = studentService.isExists(id);
             if(!exists){
                 System.out.println("您输入的id不存在，请重新输入：");
             }else{//id存在，跳出循环
                 break;
             }
         }
+        return id;
+    }
+
+    // 键盘录入学生信息
+    public Student inputStudentInfo(String updateId){
+        // 录入新的学生信息
+        System.out.println("请输入学生姓名：");
+        String name = sc.next();
+        System.out.println("请输入学生年龄：");
+        String age = sc.next();
+        System.out.println("请输入学生生日：");
+        String birthday = sc.next();
+
+        // 将学生信息封装为学生对象
+        Student newStu = new Student();
+        newStu.setId(updateId);
+        newStu.setName(name);
+        newStu.setAge(age);
+        newStu.setBirthday(birthday);
+
+        return newStu;
+    }
+
+    // 修改学生方法
+    public void updateStudent() {
+        //1.接收用户要输入的id
+//        String updateId;
+//        while(true){
+//            // 1.键盘录入要删除的学生id
+//            System.out.println("请输入您要修改的学生id：");
+//            updateId = sc.next();
+//
+//            // 2.判断id在容器中是否存在，如果不存在，则需要一直录入
+//            // 调用StudentService业务员对象中的isExists方法,判断学号是否存在，不存在则继续录入
+//            boolean exists = studentService.isExists(updateId);
+//            if(!exists){
+//                System.out.println("您输入的id不存在，请重新输入：");
+//            }else{//id存在，跳出循环
+//                break;
+//            }
+//        }
+
+        //代码优化
+        String updateId = inputStudentId();
+
+//        // 录入新的学生信息
+//        System.out.println("请输入学生姓名：");
+//        String name = sc.next();
+//        System.out.println("请输入学生年龄：");
+//        String age = sc.next();
+//        System.out.println("请输入学生生日：");
+//        String birthday = sc.next();
+//
+//        // 将学生信息封装为学生对象
+//        Student newStu = new Student();
+//        newStu.setId(updateId);
+//        newStu.setName(name);
+//        newStu.setAge(age);
+//        newStu.setBirthday(birthday);
+
+        // 代码优化
+        Student newStu = inputStudentInfo(updateId);
+
+        // 调用StudentService中的updateStudent方法，修改学生，并提示修改成功
+        studentService.updateStudent(updateId,newStu);
+        System.out.println("修改成功！");
+    }
+
+    // 删除学生对象信息
+    public void deleteStudentById() {
+//        String delId;
+//        while(true){
+//            // 1.键盘录入要删除的学生id
+//            System.out.println("请输入您要删除的学生id：");
+//            delId = sc.next();
+//
+//            // 2.判断id在容器中是否存在，如果不存在，则需要一直录入
+//            boolean exists = studentService.isExists(delId);
+//            if(!exists){
+//                System.out.println("您输入的id不存在，请重新输入：");
+//            }else{//id存在，跳出循环
+//                break;
+//            }
+//        }
+
+        String delId = inputStudentId();
+
         // 3. 调用业务员中的deleteStudentById根据id，删除学生
         studentService.deleteStudentById(delId);
         // 4. 提示删除成功
@@ -98,6 +188,7 @@ public class StudentController {
     public void addStudent() {
         //把对象的创建提取到成员变量的位置
         //StudentService studentService = new StudentService();
+
         // 1.键盘接受学生信息
         //Scanner sc = new Scanner(System.in);
         String id;
@@ -114,19 +205,23 @@ public class StudentController {
                 break;
             }
         }
-        System.out.println("请输入学生姓名：");
-        String name = sc.next();
-        System.out.println("请输入学生年龄：");
-        String age = sc.next();
-        System.out.println("请输入学生生日：");
-        String birthday = sc.next();
 
-        // 2.将学生信息封装为学生对象
-        Student stu = new Student();
-        stu.setId(id);
-        stu.setName(name);
-        stu.setAge(age);
-        stu.setBirthday(birthday);
+//        System.out.println("请输入学生姓名：");
+//        String name = sc.next();
+//        System.out.println("请输入学生年龄：");
+//        String age = sc.next();
+//        System.out.println("请输入学生生日：");
+//        String birthday = sc.next();
+//
+//        // 2.将学生信息封装为学生对象
+//        Student stu = new Student();
+//        stu.setId(id);
+//        stu.setName(name);
+//        stu.setAge(age);
+//        stu.setBirthday(birthday);
+
+        // 代码优化
+        Student stu = inputStudentInfo(id);
 
         // 3.将学生对象传递给StudentService（业务员）中的addStudent方法
         boolean result = studentService.addStudent(stu);

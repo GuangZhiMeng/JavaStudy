@@ -1,6 +1,7 @@
 package com.itheima.edu.info.manager.entry;
 
 import com.itheima.edu.info.manager.controller.StudentController;
+import com.itheima.edu.info.manager.controller.TeacherController;
 
 import java.util.Scanner;
 
@@ -23,6 +24,9 @@ public class InfoManagerEntry {
                     break;
                 case "2":
                     System.out.println("老师管理");
+                    //开启老师管理系统
+                    TeacherController teacherController = new TeacherController();
+                    teacherController.star();
                     break;
                 case "3":
                     System.out.println("感谢您的使用！再见");

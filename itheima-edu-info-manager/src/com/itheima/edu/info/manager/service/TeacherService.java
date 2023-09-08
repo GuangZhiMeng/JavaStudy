@@ -26,4 +26,34 @@ public class TeacherService {
         }
         return exists;
     }
+
+    // ≤È’“
+    public Teacher[] findAllTeacher() {
+        Teacher[] allTeacher = teacherDao.findAllTeacher();
+
+        boolean flag = false;
+
+        for(int i = 0; i < allTeacher.length; i++) {
+            Teacher t = allTeacher[i];
+            if(t != null){
+                flag = true;
+                break;
+            }
+        }
+
+        if(flag){
+            return allTeacher;
+        }else{
+            return null;
+        }
+    }
+
+    // …æ≥˝∑Ω∑®
+    public void deleteTeacherById(String id) {
+        teacherDao.deleteTeacherById(id);
+    }
+
+    public void updateTeacher(String id, Teacher newTeacher) {
+        teacherDao.updateTeacher(id,newTeacher);
+    }
 }

@@ -1,11 +1,12 @@
 package com.itheima.edu.info.manager.service;
 
+import com.itheima.edu.info.manager.dao.OtherStudentDao;
 import com.itheima.edu.info.manager.dao.StudentDao;
 import com.itheima.edu.info.manager.domain.Student;
 
 public class StudentService {
     // 1. 创建StudentDao（库管）
-    private StudentDao studentDao = new StudentDao();
+    private OtherStudentDao studentDao = new OtherStudentDao();
 
     // 添加学生方法
     public boolean addStudent(Student stu) {
